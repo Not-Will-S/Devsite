@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom"
+
 function TopPanel(){
     return(
         <div className="top-panel">
             <div className="navigation-container">
-                <p className="navigation-button"><a href="/">About</a></p>
-                <p className="navigation-button"><a href="/Projects" >Projects</a></p>
-                <p className="navigation-button"><a href="/Experience">Experience</a></p>
-                <p className="navigation-button"><a href="/Contact" >Contact</a></p>
+                <p className="navigation-button"><Link to="/">About</Link></p>
+                <p className="navigation-button"><Link to="/Projects" >Projects</Link></p>
+                <p className="navigation-button"><Link to="/Experience">Experience</Link></p>
+                <p className="navigation-button"><Link to ="/Contact" >Contact</Link></p>
             </div>
         </div>
     )

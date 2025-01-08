@@ -14,7 +14,6 @@ function Projects(){
                 <p>Welcome to my projects page! This page contains a shortlist containing some of the projects
                     i've completed and the different technologies/skills used in these projects.
                     If you would like to view the code and further details please click on the link to go to the associated GitHub page</p>
-
             </div>
             <div>
 
@@ -22,7 +21,7 @@ function Projects(){
                     projectTitle="Portfolio Website"
                     projectDescription="This website was built in React using Typescript and hosted on Vite. Modern React design principles were obeyed, 
                     each one of these projects is a modular component function and pages are loaded from the React-Router-DOM. SCSS was also used to make the styling more readable."
-                    githubLink="Sample link"
+                    githubLink="https://github.com/Not-Will-S/Devsite"
                     skillsUsed={["React", "Typescript", "HTML", "CSS", "Webdev", "Frontend"]}
                     imageLink={ReactSymbol}
                 />
@@ -43,24 +42,6 @@ function Projects(){
                     githubLink="Sample link"
                     skillsUsed={["Java", "Multi-Threading", "Pair Programming"]}
                     imageLink={PlayingCards}
-                />
-
-
-                <ProjectInstance 
-                    projectTitle="Lorem Ipusm"
-                    projectDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
-                    githubLink="Sample link"
-                    skillsUsed={["Python", "algorithm-optimisations", "Nature-Inspired Computation"]}
-                    imageLink={Ant}
-                />
-
-
-                <ProjectInstance 
-                    projectTitle="Lorem Ipusm"
-                    projectDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
-                    githubLink="Sample link"
-                    skillsUsed={["Python", "algorithm-optimisations", "Nature-Inspired Computation"]}
-                    imageLink={Ant}
                 />
             </div>
         </div>

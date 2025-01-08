@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function AboutMe(){
 
     return(
@@ -13,9 +15,9 @@ function AboutMe(){
                 </div>          
             </div>
             <div className="navigation-container">
-                <p className="navigation-button"><a href="/Projects">Projects/skills</a></p>
-                <p className="navigation-button"><a href="/Experience" >Experience</a></p>
-                <p className="navigation-button"><a href="/Contact">Links & Contacts</a></p>
+                <p className="navigation-button"><Link to="/Projects">Projects/skills</Link></p>
+                <p className="navigation-button"><Link to="/Experience" >Experience</Link></p>
+                <p className="navigation-button"><Link to="/Contact">Links & Contacts</Link></p>
             </div>
             
         </div>
