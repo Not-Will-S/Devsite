@@ -3,6 +3,7 @@ import Ant from "../Images/ant_graphic.png"
 import ReactSymbol from "../Images/react.png"
 import PlayingCards from "../Images/playing-cards.png"
 import CreditCard from "../Images/Credit-Card.png"
+import Emoji from "../Images/emoji.png"
 
 function Projects(){
 
@@ -36,24 +37,33 @@ function Projects(){
                     imageLink={Ant}
                 />
 
-                
+                <ProjectInstance 
+                    projectTitle="Machine Learning Credit-Card default prediction"
+                    projectDescription="In this project a machine learning model was created with the aim of classifiying a credit card holder as likely to default and unlikely to default based on holder data such as education level, spending habits etc. 
+                    The project demonstrates advanced techniques in data preprocessing, neural network modeling, and ensemble learning using Python and TensorFlow/Keras. The final model enhances accuracy by combining predictions from two pre-requisite models.
+                    Please visit the GitHub for the full README"
+                    githubLink="https://github.com/Not-Will-S/Credit-Card-Prediction"
+                    skillsUsed={["Python", "Machine-Learning", "Data Preprocesing"]}
+                    imageLink={CreditCard}
+                />
+
                 <ProjectInstance 
                     projectTitle="Multi-Threaded Card player"
                     projectDescription="This project was created for a second year University Module and shows a competancy in Java and an understanding of Multi-Threading. In this project, any number of players may draw cards from a shared deck and will continue to exchange cards with other players until the win condition for a player has been reached. Each player operates on its own thread simultaneously and each card is represented by an object that can be locked and/or unlocked by threads depending on which player has ownership."
-                    githubLink="https://github.com/Not-Will-S"
+                    githubLink="https://github.com/Not-Will-S/Multithread-CardGame"
                     skillsUsed={["Java", "Multi-Threading", "Pair Programming"]}
                     imageLink={PlayingCards}
                 />
 
                 <ProjectInstance 
-                    projectTitle="Machine Learning Credit-Card default prediction"
-                    projectDescription="This project was created for a second year University Module. In this project a machine learning model was created with the aim of classifiying credit hard holder data as likely to default and unlikely to default. 
-                    Two machine learning models were combined to make an ensemble model, a multi-layer-perceptron was used for data where there was no chronological attributes and a Reccurent neural network was used for data points where there were temporal elements.
-                    Output for these models were then fed into an additional Multi-Layer-Perceptron in charge of overall classification. "
-                    githubLink="https://github.com/Not-Will-S/Credit-Card-Prediction"
-                    skillsUsed={["Python", "Machine-Learning", "Data Preprocesing"]}
-                    imageLink={CreditCard}
+                    projectTitle="Pair Matching website"
+                    projectDescription="This project was created for a first year University module in web development and uses PHP. In this project users are faced with a pair matching memory game, face down cards have randomly generated emojis
+                    that must be paired with each other. Users have the option to create accounts and register their high scores to a leaderboard."
+                    githubLink="https://github.com/Not-Will-S/Website-Snap-Game"
+                    skillsUsed={["PHP", "WebDev"]}
+                    imageLink={Emoji}
                 />
+                
             </div>
         </div>
     )
