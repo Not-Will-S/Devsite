@@ -33,7 +33,7 @@ function Projects(){
                     projectDescription="In this project a nature inspired approach to the classic bin packing optimisation problem is implemented. Typically ant colony optimisation is a shortest path algorithm, however in this project
                     the path success is determined by a fitness function and the weight of the lightest and heaviest bins. For a more detailed explanation as to how this works please check out the GitHub page, it's a very interesting algorithm!"
                     githubLink="https://github.com/Not-Will-S/Ant-Colony-Optimisation"
-                    skillsUsed={["Python", "Algorithm-Optimisations", "Nature-Inspired Computation"]}
+                    skillsUsed={["Python", "Optimisations", "Nature-Inspired", "Complex-Algorithms"]}
                     imageLink={Ant}
                 />
 
